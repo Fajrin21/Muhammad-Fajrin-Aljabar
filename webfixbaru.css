@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(Bg\ Image.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #FFFADA;
+}
+header h1{
+    font: 'gotham';
+    font-style: italic;
+    font-weight: 700;
+    size: 24px;
+    line-height: 22.97px;
+    margin-top: 25px;
+    margin-left: 85px;
+    color: #C08267;
+}
+header h1:hover{
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 5px;
+}
+nav ul li{
+    margin-left: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #C08267;
+}
+nav ul li:hover{
+    text-decoration: underline;
+}
+
+button{
+    height: 36.75px;
+    text-align: center;
+    margin-right:  85px;
+    margin-top: 20px;
+    font-size: medium;
+    background: #FFFADA;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    color: #C08267;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+}
+button:hover{
+    cursor: pointer;
+    color: #C08267;
+    background-color: #552918;
+}
+#awal h1{
+    padding-top: 380px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 72px;
+    color: #FFFADA;
+}
+#awal p{
+  text-align: center;
+  font-family: 'roboto';
+  color: #CCB9B1;
+  font-weight: 400;
+  size: 24px;
+}
+#coffee{
+    padding-top: 20px;
+    margin-top: 400px;
+    height: 1120px;
+    background-color: #FFFADA;
+}
+
+#coffee h1{
+    text-align: center;
+    color: #C08267;
+}
+.kopi{
+   padding: 30px;
+   display: flex;
+}
+.kopi img{
+   width: 300px;
+   height: 300px;
+   display: block;
+   margin-left: 10px;
+   margin-right: 10px; 
+}
+.kopi h2{
+    padding: 20px;
+    margin: 100px 10px 0 10px;
+    text-align: center;
+    color: #C08267;
+}
+.kopi p{
+    padding: 10px;
+    text-align: justify;
+    margin: 70px 10px 0 0;
+    color: #C08267;
+}
+#brands{
+    background-color: #FFFADA;
+    height: 350px;
+}
+#brands h2{
+    text-align: center;
+    padding-top: 20px;
+    color: #C08267;
+}
+.foto {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+}
+img .foto1{
+    margin-left: 150px;
+   margin-bottom: 2000px;
+}
+img.foto2{
+    margin-left: 150px;
+    padding-top: 50px;
+}
+img.foto3{
+    margin-left: 150px;
+}
+img.foto4{
+    margin-left: 150px;
+}
+footer{
+    padding-top: 20px;
+    background-color: #C08267;
+    text-align: center;
+    height: 550px;
+    color: #FFFADA;
+}
+footer .pk img{
+    padding: 20px;
+}
+
+
